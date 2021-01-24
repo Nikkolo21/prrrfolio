@@ -1,0 +1,21 @@
+nav {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  .flex {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      list-style-type: none;
+      a {
+        padding: 10px 40px;
+        background-color: #6d2ef4;
+        color: white;
+        margin-right: 5px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    }
+  }
+}
